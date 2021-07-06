@@ -2,10 +2,14 @@
 
 [![npm version](https://img.shields.io/npm/v/@stripe/stripe-react-native.svg?style=flat-square)](https://www.npmjs.com/package/@stripe/stripe-react-native)
 [![License](https://img.shields.io/github/license/stripe/stripe-react-native)](https://github.com/stripe/stripe-react-native/blob/master/LICENSE)
+### ⚠️ Important ⚠️
 
-The Stripe React Native SDK allows you to build delightful payment experiences in your native Android and iOS apps using React Native. We provide powerful and customizable UI screens and elements that can be used out-of-the-box to collect your users' payment details.
+This is Phorest forked version. Before releasing a new version make sure that you run: `yarn manully:compile:bob`. This will update the lib folder which contains the transpiled and compiled sources for yarn to use during install into other projects.
+The version you provide must be a valid semver so something like major.minor.patch-whatever.
 
 ## Getting started
+
+The Stripe React Native SDK allows you to build delightful payment experiences in your native Android and iOS apps using React Native. We provide powerful and customizable UI screens and elements that can be used out-of-the-box to collect your users' payment details.
 
 Get started with our [📚 integration guides](https://stripe.com/docs/payments/accept-a-payment?platform=react-native) and [example project](#run-the-example-app), or [📘 browse the SDK reference](https://stripe.dev/stripe-react-native).
 
