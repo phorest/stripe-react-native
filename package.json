@@ -21,7 +21,7 @@
     "test": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\" --ignore-pattern \"docs/api-reference/*\"",
-    "prepare": "bob build",
+    "prepare:manual": "bob build",
     "release": "./scripts/publish",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
