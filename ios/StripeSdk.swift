@@ -590,6 +590,7 @@ class StripeSdk: RCTEventEmitter, STPApplePayContextDelegate, STPBankSelectionVi
         }
         if paymentMethodId != nil {
             paymentIntentParams.paymentMethodId = paymentMethodId
+            paymentIntentParams.savePaymentMethod = NSNumber(booleanLiteral: true)
         } else {
             var paymentMethodParams: STPPaymentMethodParams?
             var paymentMethodOptions: STPConfirmPaymentMethodOptions?

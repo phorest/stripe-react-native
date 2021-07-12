@@ -105,7 +105,8 @@ class PaymentMethodCreateParamsFactory(private val clientSecret: String, private
         paymentMethodId = paymentMethodId,
         paymentMethodOptions = paymentMethodOptionParams,
         clientSecret = clientSecret,
-        returnUrl = mapToReturnURL(urlScheme)
+        returnUrl = mapToReturnURL(urlScheme),
+        savePaymentMethod = true
       )
     } else {
       var card = cardParams
